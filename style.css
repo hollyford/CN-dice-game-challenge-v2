@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background: url(./images/felt.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
+    /* display: flex; */
+}
+
+#main-box {
+    padding-top: 50px;
+
+}
+
+#counter {
+    padding-top: 30px;
+}
+
+.dice {
+    display: flex;
+
+    justify-content: center;
+
+}
+
+#diceImg {
+    height:150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#button1, #button2 {
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+#button1:hover, #button2:hover {
+    color: yellow;
+}
